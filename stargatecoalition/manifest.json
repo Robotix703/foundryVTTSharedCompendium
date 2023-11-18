@@ -1,0 +1,77 @@
+{
+    "name": "stargate-coalition-shared",
+    "title": "Stargate Coalition Shared",
+    "author": "Robotix703",
+    "description": "Stargate Coalition Shared Compendium",
+    "packs": [
+        {
+            "name": "joueurs",
+            "label": "Joueurs",
+            "type": "Actor",
+            "system": "stargatecoalition",
+            "path": "packs/joueurs.db",
+            "entity": "Actor",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "pnj",
+            "label": "PNJ",
+            "type": "Actor",
+            "system": "stargatecoalition",
+            "path": "packs/pnj.db",
+            "entity": "Actor",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "vaisseaux",
+            "label": "Vaisseaux",
+            "type": "Actor",
+            "system": "stargatecoalition",
+            "path": "packs/vaisseaux.db",
+            "entity": "Actor",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "equipements",
+            "label": "Equipements",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/equipements.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "armes",
+            "label": "Armes",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/armes.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "armures",
+            "label": "Armures",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/armures.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
+        }
+    ],
+    "manifest": "http://fgen.lffg.org/module/manifest/eyJuYW1lIjoic3RhcmdhdGUtY29hbGl0aW9uLXNoYXJlZCIsInRpdGxlIjoiU3RhcmdhdGUgQ29hbGl0aW9uIFNoYXJlZCIsImF1dGhvciI6IlJvYm90aXg3MDMiLCJkZXNjcmlwdGlvbiI6IlN0YXJnYXRlIENvYWxpdGlvbiBTaGFyZWQgQ29tcGVuZGl1bSIsInN5c3RlbSI6IkQzNUUiLCJwYWNrcyI6W3sibmFtZSI6ImpvdWV1cnMiLCJsYWJlbCI6IkpvdWV1cnMiLCJ0eXBlIjoiQWN0b3IifSx7Im5hbWUiOiJwbmoiLCJsYWJlbCI6IlBOSiIsInR5cGUiOiJBY3RvciJ9LHsibmFtZSI6InZhaXNzZWF1eCIsImxhYmVsIjoiVmFpc3NlYXV4IiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoiZXF1aXBlbWVudHMiLCJsYWJlbCI6IkVxdWlwZW1lbnRzIiwidHlwZSI6Ikl0ZW0ifSx7Im5hbWUiOiJhcm1lcyIsImxhYmVsIjoiQXJtZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6ImFybXVyZXMiLCJsYWJlbCI6IkFybXVyZXMiLCJ0eXBlIjoiSXRlbSJ9XX0=/module.json",
+    "download": "http://fgen.lffg.org/module/download/eyJuYW1lIjoic3RhcmdhdGUtY29hbGl0aW9uLXNoYXJlZCIsInRpdGxlIjoiU3RhcmdhdGUgQ29hbGl0aW9uIFNoYXJlZCIsImF1dGhvciI6IlJvYm90aXg3MDMiLCJkZXNjcmlwdGlvbiI6IlN0YXJnYXRlIENvYWxpdGlvbiBTaGFyZWQgQ29tcGVuZGl1bSIsInN5c3RlbSI6IkQzNUUiLCJwYWNrcyI6W3sibmFtZSI6ImpvdWV1cnMiLCJsYWJlbCI6IkpvdWV1cnMiLCJ0eXBlIjoiQWN0b3IifSx7Im5hbWUiOiJwbmoiLCJsYWJlbCI6IlBOSiIsInR5cGUiOiJBY3RvciJ9LHsibmFtZSI6InZhaXNzZWF1eCIsImxhYmVsIjoiVmFpc3NlYXV4IiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoiZXF1aXBlbWVudHMiLCJsYWJlbCI6IkVxdWlwZW1lbnRzIiwidHlwZSI6Ikl0ZW0ifSx7Im5hbWUiOiJhcm1lcyIsImxhYmVsIjoiQXJtZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6ImFybXVyZXMiLCJsYWJlbCI6IkFybXVyZXMiLCJ0eXBlIjoiSXRlbSJ9XX0=/download.zip",
+    "id": "stargate-coalition-shared",
+    "authors": [
+        {
+            "name": "Robotix703"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
+}
