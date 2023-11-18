@@ -42,7 +42,7 @@
         }
     ],
     "manifest": "https://raw.githubusercontent.com/Robotix703/foundryVTTSharedCompendium/main/abstractdonjon/manifest.json",
-    "download": "http://fgen.lffg.org/module/download/eyJuYW1lIjoiYWJzdHJhY3Rkb25qb25zaGFyZWQiLCJ0aXRsZSI6ImFic3RyYWN0RG9uam9uU2hhcmVkIiwiYXV0aG9yIjoiUm9ib3RpeDcwMyIsImRlc2NyaXB0aW9uIjoiQWJzdHJhY3QgRG9uam9uIFNoYXJlZCBDb21wZW5kaXVtIiwic3lzdGVtIjoiRDM1RSIsInBhY2tzIjpbeyJuYW1lIjoicGVyc29ubmFnZXMiLCJsYWJlbCI6IlBlcnNvbm5hZ2VzIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoib3Bwb3NpdGlvbnMiLCJsYWJlbCI6Ik9wcG9zaXRpb25zIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoidHJhaXRzIiwibGFiZWwiOiJUcmFpdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6ImVxdWlwZW1lbnRzIiwibGFiZWwiOiJFcXVpcGVtZW50cyIsInR5cGUiOiJJdGVtIn1dfQ==/download.zip",
+    "download": "https://github.com/Robotix703/foundryVTTSharedCompendium/blob/main/abstractdonjon/build/download.zip",
     "id": "abstractdonjonshared",
     "authors": [
         {
