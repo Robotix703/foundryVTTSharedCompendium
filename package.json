@@ -1,0 +1,16 @@
+{
+  "name": "foundryvttsharedcompendium",
+  "version": "1.0.0",
+  "description": "FoundryVTT Shared Compendium for multiple systems",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0"
+  }
+}
