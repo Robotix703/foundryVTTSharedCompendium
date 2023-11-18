@@ -42,7 +42,7 @@
         }
     ],
     "manifest": "https://raw.githubusercontent.com/Robotix703/foundryVTTSharedCompendium/main/abstractdonjon/manifest.json",
-    "download": "https://github.com/Robotix703/foundryVTTSharedCompendium/blob/main/abstractdonjon/build/download.zip",
+    "download": "https://raw.githubusercontent.com/Robotix703/foundryVTTSharedCompendium/main/abstractdonjon/build/download.zip",
     "id": "abstractdonjonshared",
     "authors": [
         {
