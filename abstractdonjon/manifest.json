@@ -1,0 +1,59 @@
+{
+    "name": "abstractdonjonshared",
+    "title": "abstractDonjonShared",
+    "author": "Robotix703",
+    "description": "Abstract Donjon Shared Compendium",
+    "packs": [
+        {
+            "name": "personnages",
+            "label": "Personnages",
+            "type": "Actor",
+            "system": "abstractdonjon",
+            "path": "packs/personnages.db",
+            "entity": "Actor",
+            "module": "abstractdonjonshared"
+        },
+        {
+            "name": "oppositions",
+            "label": "Oppositions",
+            "type": "Actor",
+            "system": "abstractdonjon",
+            "path": "packs/oppositions.db",
+            "entity": "Actor",
+            "module": "abstractdonjonshared"
+        },
+        {
+            "name": "traits",
+            "label": "Traits",
+            "type": "Item",
+            "system": "abstractdonjon",
+            "path": "packs/traits.db",
+            "entity": "Item",
+            "module": "abstractdonjonshared"
+        },
+        {
+            "name": "equipements",
+            "label": "Equipements",
+            "type": "Item",
+            "system": "abstractdonjon",
+            "path": "packs/equipements.db",
+            "entity": "Item",
+            "module": "abstractdonjonshared"
+        }
+    ],
+    "manifest": "http://fgen.lffg.org/module/manifest/eyJuYW1lIjoiYWJzdHJhY3Rkb25qb25zaGFyZWQiLCJ0aXRsZSI6ImFic3RyYWN0RG9uam9uU2hhcmVkIiwiYXV0aG9yIjoiUm9ib3RpeDcwMyIsImRlc2NyaXB0aW9uIjoiQWJzdHJhY3QgRG9uam9uIFNoYXJlZCBDb21wZW5kaXVtIiwic3lzdGVtIjoiRDM1RSIsInBhY2tzIjpbeyJuYW1lIjoicGVyc29ubmFnZXMiLCJsYWJlbCI6IlBlcnNvbm5hZ2VzIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoib3Bwb3NpdGlvbnMiLCJsYWJlbCI6Ik9wcG9zaXRpb25zIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoidHJhaXRzIiwibGFiZWwiOiJUcmFpdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6ImVxdWlwZW1lbnRzIiwibGFiZWwiOiJFcXVpcGVtZW50cyIsInR5cGUiOiJJdGVtIn1dfQ==/module.json",
+    "download": "http://fgen.lffg.org/module/download/eyJuYW1lIjoiYWJzdHJhY3Rkb25qb25zaGFyZWQiLCJ0aXRsZSI6ImFic3RyYWN0RG9uam9uU2hhcmVkIiwiYXV0aG9yIjoiUm9ib3RpeDcwMyIsImRlc2NyaXB0aW9uIjoiQWJzdHJhY3QgRG9uam9uIFNoYXJlZCBDb21wZW5kaXVtIiwic3lzdGVtIjoiRDM1RSIsInBhY2tzIjpbeyJuYW1lIjoicGVyc29ubmFnZXMiLCJsYWJlbCI6IlBlcnNvbm5hZ2VzIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoib3Bwb3NpdGlvbnMiLCJsYWJlbCI6Ik9wcG9zaXRpb25zIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoidHJhaXRzIiwibGFiZWwiOiJUcmFpdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6ImVxdWlwZW1lbnRzIiwibGFiZWwiOiJFcXVpcGVtZW50cyIsInR5cGUiOiJJdGVtIn1dfQ==/download.zip",
+    "id": "abstractdonjonshared",
+    "authors": [
+        {
+            "name": "Robotix703"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 11
+    },
+    "version": "1.1"
+}
