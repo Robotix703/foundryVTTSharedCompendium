@@ -86,6 +86,8 @@
             "module": "stargate-coalition-shared"
         }
     ],
+    "manifest": "https://github.com/Robotix703/foundryVTTSharedCompendium/raw/main/stargatecoalition/module.json",
+    "download": "https://github.com/Robotix703/foundryVTTSharedCompendium/raw/main/stargatecoalition/build/download.zip",
     "id": "stargate-coalition-shared",
     "authors": [
         {
