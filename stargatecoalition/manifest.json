@@ -57,6 +57,33 @@
             "path": "packs/armures.db",
             "entity": "Item",
             "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "metiers",
+            "label": "Métiers",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/metiers.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "races",
+            "label": "Races",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/races.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
+        },
+        {
+            "name": "aptitudes",
+            "label": "Aptitudes",
+            "type": "Item",
+            "system": "stargatecoalition",
+            "path": "packs/aptitudes.db",
+            "entity": "Item",
+            "module": "stargate-coalition-shared"
         }
     ],
     "manifest": "https://github.com/Robotix703/foundryVTTSharedCompendium/raw/main/stargatecoalition/manifest.json",
@@ -73,5 +100,5 @@
         "minimum": 9,
         "verified": 11
     },
-    "version": "1.1"
+    "version": "1.2"
 }
