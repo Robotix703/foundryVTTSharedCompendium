@@ -89,6 +89,49 @@ function createZipStargateCoalition() {
     archive.finalize();
 }
 
+//DND
+//Clean DND Folder
+async function cleanDND() {
+    await deleteAsync(['dndshared/build/**']);
+}
+
+//Build DND
+function createZipDND() {
+    const output = fs.createWriteStream('dndshared/build/download.zip');
+    const archive = archiver('zip', {
+    zlib: { level: 9 }
+    });
+
+    output.on('close', function() {
+        console.log(archive.pointer() + ' total bytes');
+        console.log('archiver has been finalized and the output file descriptor has closed.');
+    });
+    output.on('end', function() {
+        console.log('Data has been drained');
+    });
+    archive.on('warning', function(err) {
+        if (err.code === 'ENOENT') {
+            // log warning
+        } else {
+            // throw error
+            throw err;
+        }
+    });
+    archive.on('error', function(err) {
+        throw err;
+    });
+    archive.pipe(output);
+
+    //Files
+    archive.file('./dndshared/module.json', { name: './module.json' });
+
+    //Directories
+    archive.directory('./dndshared/packs', 'packs');
+
+    archive.finalize();
+}
+
+
 //Abstract Donjon
 console.log("Cleaning and Building Abstract Donjon");
 await cleanAbstractDonjon();
@@ -98,3 +141,8 @@ createZipAbstractDonjon();
 console.log("Cleaning and Building Stargate Coalition");
 await cleanStargateCoalition();
 createZipStargateCoalition();
+
+//DND5e
+console.log("Cleaning and Building DND5e");
+await cleanDND();
+createZipDND();
