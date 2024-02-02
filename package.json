@@ -4,13 +4,13 @@
   "description": "FoundryVTT Shared Compendium for multiple systems",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "node build.js"
   },
   "author": "",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "del": "^6.1.1",
-    "gulp": "^4.0.2",
-    "gulp-zip": "^5.1.0"
+    "archiver": "^6.0.1",
+    "del": "^7.1.0"
   }
 }
