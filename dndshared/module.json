@@ -8,7 +8,7 @@
             "name": "pj",
             "label": "PJ",
             "type": "Actor",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/pj.db",
             "entity": "Actor",
             "module": "dnd-shared"
@@ -17,7 +17,7 @@
             "name": "monstres",
             "label": "Monstres",
             "type": "Actor",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/monstres.db",
             "entity": "Actor",
             "module": "dnd-shared"
@@ -26,7 +26,7 @@
             "name": "pnj",
             "label": "PNJ",
             "type": "Actor",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/pnj.db",
             "entity": "Actor",
             "module": "dnd-shared"
@@ -35,7 +35,7 @@
             "name": "capacitemonstres",
             "label": "Capacité des Monstres",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/capacitemonstres.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -44,7 +44,7 @@
             "name": "objets",
             "label": "Objets",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/objets.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -53,7 +53,7 @@
             "name": "sorts",
             "label": "Sorts",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/sorts.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -62,7 +62,7 @@
             "name": "historiques",
             "label": "Historiques",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/historiques.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -71,7 +71,7 @@
             "name": "classes",
             "label": "Classes",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/classes.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -80,7 +80,7 @@
             "name": "sousclasses",
             "label": "Sous Classes",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/sousclasses.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -89,7 +89,7 @@
             "name": "capaciteclasses",
             "label": "Capacité de classes",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/capaciteclasses.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -98,7 +98,7 @@
             "name": "races",
             "label": "Races",
             "type": "Item",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/races.db",
             "entity": "Item",
             "module": "dnd-shared"
@@ -107,7 +107,7 @@
             "name": "aventures",
             "label": "Aventures",
             "type": "Adventure",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/aventures.db",
             "entity": "Adventure",
             "module": "dnd-shared"
@@ -116,7 +116,7 @@
             "name": "cartes",
             "label": "Cartes",
             "type": "Cards",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/cartes.db",
             "entity": "Cards",
             "module": "dnd-shared"
@@ -125,7 +125,7 @@
             "name": "journeaux",
             "label": "Journeaux",
             "type": "JournalEntry",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/journeaux.db",
             "entity": "JournalEntry",
             "module": "dnd-shared"
@@ -134,7 +134,7 @@
             "name": "macros",
             "label": "Macros",
             "type": "Macro",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/macros.db",
             "entity": "Macro",
             "module": "dnd-shared"
@@ -143,7 +143,7 @@
             "name": "playlist",
             "label": "Playlist",
             "type": "Playlist",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/playlist.db",
             "entity": "Playlist",
             "module": "dnd-shared"
@@ -152,7 +152,7 @@
             "name": "rollTable",
             "label": "RollTable",
             "type": "RollTable",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/rollTable.db",
             "entity": "RollTable",
             "module": "dnd-shared"
@@ -161,7 +161,7 @@
             "name": "scenes",
             "label": "Scenes",
             "type": "Scene",
-            "system": "DnD5e",
+            "system": "dnd5e",
             "path": "packs/scenes.db",
             "entity": "Scene",
             "module": "dnd-shared"
